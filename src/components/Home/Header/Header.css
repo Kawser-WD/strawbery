@@ -1,0 +1,9 @@
+.headline{
+    height: 50px;
+    background: #709F33;
+}
+.headline-text{
+    margin-top: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
