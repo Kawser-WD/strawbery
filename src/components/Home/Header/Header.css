@@ -1,9 +1,10 @@
 .headline{
-    height: 50px;
+    height: 60px;
     background: #709F33;
+    text-align: center;
 }
 .headline-text{
-    margin-top: 10px;
+    padding-top: 10px;
     color: #fff;
     text-transform: uppercase;
 }

@@ -1,0 +1,31 @@
+.fruits{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+  }
+  .title{
+    margin-top: 50px;
+    background-color: #709F33;
+    color: #fff;
+    border: 1px solid #fff ;
+    font-size: 20px;
+    padding: 5px 12px;
+  }
+  .rec.rec-arrow {
+    background-color: red;
+    color: white;
+}
+  .rec.rec-arrow-left{
+    margin-left: 250px;
+}
+  .rec.rec-arrow-right{
+    margin-right: 250px;
+}
+.rec.rec-arrow:hover {
+    background-color: red;
+}
+.rec.rec-dot{
+    background-color: red;
+}
