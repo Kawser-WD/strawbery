@@ -1,0 +1,21 @@
+.contact{
+    padding: 4% 15%
+}
+.form-control{
+    height: 46px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    border-color: #D3D3D3;
+}
+.form-control:focus{
+    border-color: #D3D3D3;
+    box-shadow: none;
+}
+#exampleFormControlTextarea1{
+    height: 100%;
+}
+placeholder{
+    font-size: medium;
+}

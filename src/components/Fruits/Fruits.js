@@ -8,10 +8,13 @@ import "./Fruits.css";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2 },
-  { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 },
-];
+  { width: 550, itemsToShow: 1, itemsToScroll: 1, pagination: false },
+  { width: 850, itemsToShow: 1 },
+  { width: 1150, itemsToShow: 1, itemsToScroll: 1 },
+  { width: 1450, itemsToShow: 1 },
+  { width: 1750, itemsToShow: 1 },
+]
+
 const Fruits = () => {
     return (
         <div>
@@ -19,7 +22,7 @@ const Fruits = () => {
              <button className='title'>Download to setup your carousel in react</button>
              </div>
       <div className="fruits">
-        <Carousel itemsToShow={1}  >
+        <Carousel breakPoints={breakPoints} >
           <Item>
             <img src={Image1} alt=""/>
           </Item>

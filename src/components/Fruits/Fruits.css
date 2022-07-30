@@ -1,12 +1,11 @@
 .fruits{
-    font-family: sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 60vh;
+    margin-top: 100px;
   }
   .title{
-    margin-top: 50px;
+    margin-top: 80px;
     background-color: #709F33;
     color: #fff;
     border: 1px solid #fff ;
@@ -17,12 +16,13 @@
     background-color: red;
     color: white;
 }
-  .rec.rec-arrow-left{
+  /* .rec.rec-arrow-left{
     margin-left: 250px;
 }
   .rec.rec-arrow-right{
     margin-right: 250px;
-}
+} */
+
 .rec.rec-arrow:hover {
     background-color: red;
 }

@@ -1,6 +1,13 @@
 .navbar{
-    height: 100px;
+    padding: 2% 12%;
     background-color: #fff;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .nav-link{
