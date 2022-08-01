@@ -19,7 +19,7 @@ const Fruits = () => {
     return (
         <div>
              <div className='d-flex justify-content-center'>
-             <button className='title'>Download to setup your carousel in react</button>
+             <a href="https://drive.google.com/file/d/1IyYvOJjXI7p_T84mAD0FlfCRp_CNfJ5H/view?usp=sharing"><button className='title'>download heier onze seizoensklander</button></a>
              </div>
       <div className="fruits">
         <Carousel breakPoints={breakPoints} >
