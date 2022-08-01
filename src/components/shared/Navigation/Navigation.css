@@ -1,5 +1,5 @@
 .navbar{
-    padding: 2% 12%;
+    padding: 0% 0%;
     background-color: #fff;
 }
 
@@ -13,15 +13,60 @@
 .nav-link{
     text-transform: uppercase;
     color: black;
-    margin-right: 25px;
+    margin-right: 40px;
+    font-size: 15px;
 }
+.navbar-brand img{
+    width: 300px;
+    height: auto;
+}
+
 .nav-link:hover{
-    color: #E7242D;
+    color: #BD2322;
 }
 .shopping{
-    background-color: #E7242D;
+    background-color: #BD2322;
     color: #fff;
 }
 .shopping:hover{
     color: #fff;
+}
+.headline{
+    height: 40px;
+    background: #709F33;
+    text-align: center;
+}
+.headline-text{
+    padding-top: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+
+/* -----------------------
+    Media Queries
+----------------------- */
+
+/* -----------------------
+  Mobile Device
+----------------------- */
+
+
+@media only screen and  (max-width: 1024px) {
+    .nav-link{
+        text-transform: uppercase;
+        color: black;
+        margin-right: 0px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .shopping{
+        background-color: #BD2322;
+        color: #fff;
+    }
+    .shopping:hover{
+        color: #fff;
+    }
 }

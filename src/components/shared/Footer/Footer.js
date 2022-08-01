@@ -1,38 +1,39 @@
 import React from 'react';
 import facebook from '../../Images/facebook-app-symbol.png'
 import instagram from '../../Images/instagram.png'
-import img from '../../Images/img.png'
+import img from '../../Images/Footer/ann&wim_aarbeiden.png'
 import './Footer.css'
-
+import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome';
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
     return (
         <div className='footer-main'>
-      
             <div className='footer'>
-                <div className='container'>
+                {/* <div className='container'> */}
                     <div className='row text-white'>
                         <div className='col-lg-3 col-md-3 col-6'>
-                            <h2 style={{marginTop:'20px'}}>Pluk de dag!</h2>
+                            <h2 className='footer-title'>Pluk de dag!</h2>
                         </div>
-                        <div className='col-lg-3 col-md-3 col-6'>
-                            <p>T. 050 5416 5444</p>
-                            <p>Wim. 050 5416 5444</p>
-                            <p>Ann. 050 5416 5444</p>
+                        <div className='col-lg-3 col-md-3 col-6 footer-text'>
+                            <p>T. 050 41 45 59 </p>
+                            <p>Wim 0496 52 58 58</p>
+                            <p>Ann. 0496 52 61 61</p>
                         </div>
-                        <div className='col-lg-3 col-md-3 col-6'>
-                            <p>Stenoverstet 8-10</p>
-                            <p>5444 Blenkenberg</p>
-                            <p>ann@gmail.com</p>
+                        <div className='col-lg-3 col-md-3 col-6 footer-text'>
+                            <p>Steenoverstraat 8-10</p>
+                            <p>8370 Blankenberge</p>
+                            <a href="#" className='text-white'>Info@wimtanghe.be</a>
                         </div>
                         <div className='col-lg-3 col-md-3 col-6' style={{marginTop:'10px', color:'#fff'}}>
-                            <img src={instagram} style={{height:'50px', width:'50px'}} alt=""/>
-                            <img src={facebook} style={{height:'50px', width:'50px'}} alt=""/>
+                            <FontAwesomeIcon icon={faInstagram} style={{height:'40px', width:'40px',color:'#fff'}}></FontAwesomeIcon>
+                            <FontAwesomeIcon icon={faFacebookF} style={{height:'40px', width:'40px',color:'#fff'}}></FontAwesomeIcon>
                         </div>
-                    </div>
+                    {/* </div> */}
                 </div>
         </div>
-        <div id='image'>
-        <img src={img} style={{width:'100%'}} alt=""/>
+        <div>
+        <img src={img}  id='image' alt=""/>
         </div>
         <div className='copyright d-flex justify-content-center'>
         <p>Copyright Grothendal Tanghe 2022- web design by wlampert</p>

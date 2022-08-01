@@ -1,12 +1,19 @@
 .footer-main{
   position: relative;
-  width: 100%;
-  height: 100%;
-  margin-top: 150px;
+  margin-top: 320px;
+  background-image: url("../../Images/Footer/website_ann&wim.png");
 }
 .footer{
     padding: 4% 10%;
-    background-color: #709F33;
+}
+.footer-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.footer-text p{
+  margin-bottom: 0;
+  font-size: 18px;
 }
 .copyright{
   background-color: #BD2322;
@@ -17,6 +24,41 @@
 }
 #image{
     position: absolute;
-    left: 75%;
-    bottom: 90%;
+    left: 50%;
+    bottom: 40%;
+    width: 50%;
+}
+
+
+/* -----------------------
+    Media Queries
+----------------------- */
+
+/* -----------------------
+  Mobile Device
+----------------------- */
+
+
+@media only screen and  (max-width: 688px) {
+        #image{
+          bottom: 80%;
+          width: 50%;
+      }
+      .footer-main{
+        margin-top: 100px;
+      }
+}
+@media only screen and  (max-width: 1024px) {
+  .footer-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  #image{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    width: 50%;
+}
 }

@@ -1,25 +1,29 @@
 import './App.css';
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
 import Contact from './components/Contact/Contact';
-import Fruits from './components/Fruits/Fruits';
-import About from './components/Home/About/About';
-import Factory from './components/Home/Factory/Factory';
-import Header from './components/Home/Header/Header';
-import Media from './components/Media/Media';
 import Footer from './components/shared/Footer/Footer';
 import Navigation from './components/shared/Navigation/Navigation'
+import Home from './components/Home/Home';
+import Fotos from './components/Fotos/Fotos';
+import BestelOnline from './components/BestelOnline/BestelOnline';
 
 function App() {
   return (
-      <div>
-         <Navigation></Navigation>
-       <Header></Header>
-       <About></About>
-       <Factory></Factory>
-       <Fruits></Fruits>
-       <Media></Media>
-       <Contact></Contact>
-       <Footer></Footer>
-      </div>
+    <div>
+        <Navigation></Navigation>
+       <Routes>
+       <Route path='/'  element={<Home/>}/>
+       <Route path='/fotos'  element={<Fotos/>}/>
+       <Route path='/contact'  element={<Contact/>}/>
+       <Route path='/bestelonline'  element={<BestelOnline/>}/>
+     </Routes>
+        <Footer></Footer>
+    </div>
+        
+    
   );
 }
 

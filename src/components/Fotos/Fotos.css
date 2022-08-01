@@ -1,0 +1,18 @@
+/* .foto{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(4 , 1fr);
+    margin-top: 50px;
+    justify-content: center;
+
+} */
+ .foto{
+    margin-top: 50px;
+    padding: 1%  10%;
+ }
+
+.product-foto{
+    height: 100%;
+    width: 100%;
+}
+

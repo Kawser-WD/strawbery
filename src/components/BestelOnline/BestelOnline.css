@@ -1,0 +1,100 @@
+.form-input{
+    height: 36px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    border: none;
+    background-color: #EFEEEE;
+    border-radius: 0%;
+}
+
+.bestel{
+    padding: 2% 8%;
+}
+
+#FormControlInput1{
+    border: none;
+}
+
+placeholder{
+    font-size: medium;
+}
+.bestel-table{
+    padding: 4% 14%;
+}
+.input-field1{
+    width: 60px;
+    text-align: center;
+    margin-left: -25px;
+}
+.input-field2{
+    width: 60px;
+    text-align: center;
+}
+.input-field3{
+    margin-left: 25px;
+}
+.input-text1{
+    width: 360px;
+}
+.input-text2{
+    margin-left: 25px;
+}
+.bestel-title{
+    padding: 2%  20%;
+    font-weight: bold;
+}
+
+/* -----------------------
+    Media Queries
+----------------------- */
+
+/* -----------------------
+  Mobile Device
+----------------------- */
+
+
+@media only screen and  (max-width: 688px) {
+    .input-field1{
+        width: 60px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .input-field2{
+        width: 60px;
+        text-align: center;
+    }
+    .input-text1{
+        width: 325px;
+    }
+    .input-text2{
+        margin-left: 0px;
+    }
+}
+@media only screen and  (max-width: 1024px) {
+    .input-field1{
+        width: 60px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .input-field2{
+        width: 60px;
+        text-align: center;
+    }
+    .input-field3{
+        margin-left: 0px;
+    }
+    .input-text1{
+        width: 360px;
+    }
+    .input-text2{
+        margin-left: 0px;
+        width: 50%;
+    }
+    .bestel-title{
+        padding: 2%  20%;
+        font-weight: bold;
+        font-size: larger;
+    }
+}

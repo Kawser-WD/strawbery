@@ -1,8 +1,5 @@
 .fruits{
-    display: flex;
-    justify-content: center;
-    height: 60vh;
-    margin-top: 100px;
+  padding: 1% 10%;
   }
   .title{
     margin-top: 80px;

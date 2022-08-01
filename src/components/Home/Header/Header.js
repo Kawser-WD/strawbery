@@ -1,7 +1,9 @@
 import React from 'react';
-import Image1 from '../../Images/image1.jpg'
-import Image2 from '../../Images/image2.jpg'
-import Image3 from '../../Images/image3.jpg'
+import slider1 from '../../Images/slider top/1.jpg';
+import slider2 from '../../Images/slider top/productfoto-113.jpg';
+import slider3 from '../../Images/slider top/productfoto-29.jpg';
+import slider4 from '../../Images/slider top/productfoto-58.jpg';
+import slider5 from '../../Images/slider top/productfoto-69.jpg';
 import './Header.css';
 
 
@@ -9,24 +11,29 @@ import './Header.css';
 const Header = () => {
     return (
         <div>
-            <div className='headline'>
-                <p className='headline-text'>Wij leveren dagelijks 7 op 7 verse kawalitietvolle groeten fruit</p>
-            </div>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 5"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src={Image1} class="d-block w-100" style={{height:'550px'}} alt="..."/>
+                    <img src={slider1} class="d-block w-100" style={{height:'550px'}} alt="..."/>
                     </div>
                     <div class="carousel-item">
-                    <img src={Image2} class="d-block w-100" style={{height:'550px'}} alt="..."/>
+                    <img src={slider2} class="d-block w-100" style={{height:'550px'}} alt="..."/>
                     </div>
                     <div class="carousel-item">
-                    <img src={Image3} class="d-block w-100" style={{height:'550px'}} alt="..."/>
+                    <img src={slider3} class="d-block w-100" style={{height:'550px'}} alt="..."/>
+                    </div>
+                    <div class="carousel-item">
+                    <img src={slider4} class="d-block w-100" style={{height:'550px'}} alt="..."/>
+                    </div>
+                    <div class="carousel-item">
+                    <img src={slider5} class="d-block w-100" style={{height:'550px'}} alt="..."/>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
