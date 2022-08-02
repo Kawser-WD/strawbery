@@ -1,0 +1,11 @@
+.carousel-indicators button {
+    height: 15px !important;
+    width: 15px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+    color: #fff !important;
+}
+.carousel-indicators{
+    margin-right: 500px;
+    margin-bottom: 80px;
+}
