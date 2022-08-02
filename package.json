@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-elastic-carousel": "^0.11.5",
     "react-hot-toast": "^2.3.0",
+    "react-hover-observer": "^2.1.1",
     "react-owl-carousel": "^2.3.3",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",

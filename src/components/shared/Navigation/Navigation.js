@@ -5,6 +5,8 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './Navigation.css'
 import Logo from '../../Images/ANN-&-WIM-TANGHE-LOGO.png';
 import { Link } from 'react-router-dom';
+import Hover from '../Hover/Hover';
+import ReactHoverObserver from 'react-hover-observer';
 
 const Navigation = () => {
     return (
@@ -46,9 +48,12 @@ const Navigation = () => {
           </div>
         </div>
       </nav>
-       <div className='headline'>
-       <p className='headline-text'>Wij leveren dagelijks 7 op 7 verse kawalitietvolle groeten fruit</p>
-   </div>
+      <ReactHoverObserver class="hover">
+      
+            <Hover />
+  
+    </ReactHoverObserver>
+ 
     </div>
     );
 };

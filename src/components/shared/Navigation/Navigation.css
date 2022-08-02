@@ -41,6 +41,15 @@
     color: #fff;
     text-transform: uppercase;
 }
+.hover-text{
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #BD2322;
+}
+.hover{
+    position: relative;
+}
+
 
 
 
