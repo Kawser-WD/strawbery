@@ -9,7 +9,9 @@
     outline: none;
     box-shadow: none;
 }
-
+.nav-link:focus{
+    color: #BD2322;
+}
 .nav-link{
     text-transform: uppercase;
     color: black;
@@ -29,6 +31,9 @@
     color: #fff;
 }
 .shopping:hover{
+    color: #fff;
+}
+.shopping:focus{
     color: #fff;
 }
 .headline{
@@ -61,9 +66,33 @@
 /* -----------------------
   Mobile Device
 ----------------------- */
+@media only screen and  (max-width: 688px) {
+    /* .nav-link{
+        text-transform: uppercase;
+        color: black;
+        margin-right: 0px;
+        font-size: 13px;
+        font-weight: bold;
+    } */
+    .navbar-brand img{
+        width: 280px;
+        height: auto;
+    }
+    .shopping{
+        background-color: #BD2322;
+        color: #fff;
+    }
+    .shopping:hover{
+        color: #fff;
+    }
+}
 
 
-@media only screen and  (max-width: 1024px) {
+/* -----------------------
+  Tablet Device
+----------------------- */
+
+@media only screen and (min-width: 689px) and (max-width: 1024px) {
     .nav-link{
         text-transform: uppercase;
         color: black;

@@ -53,7 +53,6 @@ const Navigation = () => {
             <Hover />
   
     </ReactHoverObserver>
- 
     </div>
     );
 };

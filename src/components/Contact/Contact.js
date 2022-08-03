@@ -6,14 +6,14 @@ import Image2 from '../Images/slider top/productfoto-113.jpg';
 import './Contact.css';
 const Contact = () => {
     const form = useRef();
-    const formRef = useRef(null);
 
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_w795alg', 'template_ebtzpgk', form.current, '1MVIkRXCRQGngUelf')
+      emailjs.sendForm('service_w795alg', 'template_ebtzpgk', e.target, '1MVIkRXCRQGngUelf')
         .then((result) => {
            toast.success('Thanks for your message')
+           e.target.reset()
         }, (error) => {
             console.log(error.text);
         });
@@ -34,12 +34,17 @@ const Contact = () => {
             <div className='row'>
             <div className='col-lg-4 col-md-4 col-6'>
             <div class="mb-3">
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" name="user_name"/>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Naam" name="user_naam"/>
                         </div>
             </div>
                       <div className='col-lg-4 col-md-4 col-6'>
                       <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" name="user_email"/>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Achternaam" name="achternaam"/>
+                        </div>
+                      </div>
+                      <div className='col-lg-4 col-md-4 col-6'>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Bedrijfsnaam" name="bedrijfsnaam"/>
                         </div>
                       </div>
                       <div className='col-lg-4 col-md-4 col-6'>
@@ -49,17 +54,12 @@ const Contact = () => {
                       </div>
                       <div className='col-lg-4 col-md-4 col-6'>
                       <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" name="user_email"/>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Telefoon" name="user_telefoon"/>
                         </div>
                       </div>
                       <div className='col-lg-4 col-md-4 col-6'>
                       <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" name="user_email"/>
-                        </div>
-                      </div>
-                      <div className='col-lg-4 col-md-4 col-6'>
-                      <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" name="user_email"/>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Btw Number" name="btwnumber"/>
                         </div>
                       </div>
             </div>

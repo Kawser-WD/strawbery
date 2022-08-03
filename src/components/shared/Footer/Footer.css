@@ -42,14 +42,13 @@
 
 @media only screen and  (max-width: 688px) {
         #image{
-          bottom: 80%;
-          width: 50%;
+          top: -100px;
       }
       .footer-main{
         margin-top: 100px;
       }
 }
-@media only screen and  (max-width: 1024px) {
+@media only screen and (min-width: 689px) and (max-width: 1024px) {
   .footer-title{
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -57,9 +56,6 @@
     margin-right: 15px;
   }
   #image{
-    position: absolute;
-    left: 50%;
-    bottom: 50%;
-    width: 50%;
+    top: -180px;
 }
 }
