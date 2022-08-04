@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 import Image1 from '../Images/Schermafbeelding 2022-07-30 om 17.12.20.png';
-import Image2 from '../Images/slider top/productfoto-113.jpg';
+import location from '../Images/Location.png';
 import './Contact.css';
 const Contact = () => {
     const form = useRef();
@@ -76,7 +76,7 @@ const Contact = () => {
                     <img src={Image1} className="img-fluid" alt=""/>
                 </div>
                 <div className='col-lg-6 col-md-6 col-sm-12 col-12'>
-                    <img src={Image2} className="img-fluid" alt=""/>
+                    <img src={location} className="img-fluid" alt=""/>
                 </div>
             </div>
         </div>
