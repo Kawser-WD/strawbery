@@ -1,3 +1,14 @@
 .about{
    padding: 4% 10%;
 }
+
+.about-text{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   font-size: small;
+}
+.about-title{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+}

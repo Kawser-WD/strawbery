@@ -2,3 +2,11 @@
    padding: 4% 10%;
     background-color: #EAEAEA;
 }
+.factory-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+.factory-title{
+    font-size: 25px;
+}

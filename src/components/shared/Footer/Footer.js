@@ -15,7 +15,7 @@ const Footer = () => {
         <div className='footer'>
                     <div className='row text-white'>
                         <div className='col-lg-3 col-md-3 col-6'>
-                            <h2 className='footer-title'>Pluk de dag!</h2>
+                            <h1 className='footer-title'>Pluk de dag!</h1>
                         </div>
                         <div className='col-lg-3 col-md-3 col-6 footer-text'>
                             <p>T. 050 41 45 59 </p>
@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
         </div>
         <div className='copyright d-flex justify-content-center'>
-        <p>Copyright Grothendal Tanghe 2022- web design by wlampert</p>
+        <p>Copyright Grothendal Tanghe 2022-<span className='copyright-span'>webdesign by wlampert</span></p>
        </div>
         </>
     );

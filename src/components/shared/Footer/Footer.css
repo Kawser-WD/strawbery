@@ -8,8 +8,9 @@
 }
 .footer-title{
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 33px;
   margin-top: 10px;
+  font-style: italic;
 }
 .footer-text p{
   margin-bottom: 0;
@@ -22,6 +23,11 @@
 }
 .copyright p{
   padding-top: 5px ;
+  font-size: 12px;
+}
+.copyright-span{
+  font-size: 14px;
+  color: #fff;
 }
 #image{
     position: absolute;

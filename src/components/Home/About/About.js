@@ -10,9 +10,9 @@ const About = () => {
                         <img src={factoryImage} style={{height:'280px', width:'100%'}} alt=""/>
                     </div>
                     <div className='col-lg-6 col-md-6 col-12 mt-3'>
-                        <h4>Welcome bij Groenten en Fruithandle <br/>Ann en wim!</h4>
-                        <p>Rapid technology development in controlled environment (CE) plant production has been applied to a large variety of plants. In recent years, strawberries have become a popular fruit for CE production because of their high economic and nutritional values.</p>
-                        <p>Ann, wim en het team.</p>
+                        <h4 className='about-title'>Welcome bij Groenten en Fruithandle <br/>Ann en wim!</h4>
+                        <p className='about-text mt-4'>Reeds tientallen jaren heten wij iedereen welkom in onze handel . Ons bedrijf is  gevestigd in Blankenberge. Wij leveren degelijks 7 op 7 verse kawaliteitsvolle groenten en fruit indien gewenst ook gesneden. Onze klanten bestaan Voornamelijk uit horeca, grootkeukens en voedingswinkels.</p>
+                        <p className='about-text mt-4'>Ann, wim en het team.</p>
                     </div>
                 </div>
             </div>

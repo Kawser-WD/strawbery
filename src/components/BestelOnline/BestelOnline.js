@@ -63,51 +63,145 @@ const BestelOnline = () => {
         </div>
         <div className='bestel-table'>
         <div className='container'>
-        <div className='row'>
-              <div className='col-lg-6 col-md-6 col-6'>
+            <div className='row'>
+            <table>
+              <tr>
+                <td className='number'>
+               1.
+                </td>
+                <td>
+                <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label input-label">Omschrijving</label>
                        <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
                         </div>
               </div>
-              <div className='col-lg-1 col-md-1 col-1'>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label input-field1">Stucks</label>
                         <input type="number" class="form-control input-field1" id="FormControlInput1" name="stucks"/>
                         </div>
               </div>
-              <div className='col-lg-1 col-md-1 col-1'>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label input-field2">Type</label>
                         <input type="text" class="form-control input-field2" id="FormControlInput1" defaultValue="Kg" disabled name="stucks"/>
                         </div>
               </div>
-              <div className='col-lg-4 col-md-4 col-4'>
+                </td>
+                <td>
+                <div className='col-lg-4 col-md-4 col-4'>
               <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label input-field3">Opmerking</label>
                         <input type="text" class="form-control input-text2" id="FormControlInput1"  name="opmerking"/>
                         </div>
               </div>
-              <div className='col-lg-6 col-md-6 col-6'>
+                </td>
+              </tr>
+              <tr>
+                <td className='number'>
+               2.
+                </td>
+                <td>
+                <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
                        <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
                         </div>
               </div>
-              <div className='col-lg-1 col-md-1 col-1'>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
                         <input type="number" class="form-control input-field1" id="FormControlInput1" name="stucks"/>
                         </div>
               </div>
-              <div className='col-lg-1 col-md-1 col-1'>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
                         <input type="text" class="form-control input-field2" id="FormControlInput1" defaultValue="Kg" disabled name="stucks"/>
                         </div>
               </div>
-              <div className='col-lg-4 col-md-4 col-4'>
+                </td>
+                <td>
+                <div className='col-lg-4 col-md-4 col-4'>
               <div class="mb-3">
                         <input type="text" class="form-control input-text2" id="FormControlInput1"  name="opmerking"/>
                         </div>
               </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='number'>
+               3.
+                </td>
+                <td>
+                <div className='col-lg-6 col-md-6 col-6'>
+              <div class="mb-3">
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stucks"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <input type="text" class="form-control input-field2" id="FormControlInput1" defaultValue="Kg" disabled name="stucks"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-4 col-md-4 col-4'>
+              <div class="mb-3">
+                        <input type="text" class="form-control input-text2" id="FormControlInput1"  name="opmerking"/>
+                        </div>
+              </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='number'>
+               4.
+                </td>
+                <td>
+                <div className='col-lg-6 col-md-6 col-6'>
+              <div class="mb-3">
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stucks"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <input type="text" class="form-control input-field2" id="FormControlInput1" defaultValue="Kg" disabled name="stucks"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-4 col-md-4 col-4'>
+              <div class="mb-3">
+                        <input type="text" class="form-control input-text2" id="FormControlInput1"  name="opmerking"/>
+                        </div>
+              </div>
+                </td>
+              </tr>
+            </table>
             </div>
         </div>
         </div>
