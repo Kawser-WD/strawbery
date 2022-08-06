@@ -23,7 +23,7 @@
 
 @media only screen and  (max-width: 688px) {
         .factory-row{
-            margin-left: -45px;
+            margin-left: -10%;
         }
 }
 
@@ -35,5 +35,10 @@ Tablet Device
 @media only screen and  (max-width: 1024px) and  (min-width: 689px) {
      .factory-row{
         margin-left: -65px;
+     }
+}
+@media only screen and  (min-width: 1024px)  {
+     .factory-row{
+        margin-left: 55px;
      }
 }

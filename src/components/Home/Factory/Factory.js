@@ -8,7 +8,7 @@ const Factory = () => {
              <div className='container'
             
              >
-                <div className='row factory-row' style={{marginLeft:'65px'}}>
+                <div className='row factory-row'>
                 <div className='col-lg-6 col-md-6 col-12'>
                         <h4 className='factory-title mt-3'>Vroegmarkt/Veiling</h4>
                         <p className='factory-text mt-4'>Elke week gaan wij met de vrachtwagen
