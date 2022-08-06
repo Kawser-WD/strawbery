@@ -1,14 +1,47 @@
 .about{
-   padding: 4% 10%;
+   padding: 4% 14%;
 }
 
 .about-text{
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
-   font-size: small;
+   font-size: smaller;
+   width: 337px;
 }
 .about-title{
-   font-family: 'Montserrat', sans-serif;
    font-size: 20px;
-   font-weight: bold;
+   font-family: 'Trebuchet MS';
+   font-weight: normal;
+
+}
+.about-img{
+   height: 220px;
+   width: 300px;
+   margin-left: 80px;
+   margin-top: 10px;
+   object-fit: cover;
+}
+
+
+@media only screen and  (max-width: 688px) {
+   .about-row{
+      margin-left: -16px;
+   }
+   .about-img{
+      margin-left: -16px;
+   }
+}
+
+
+/* -----------------------
+Tablet Device
+----------------------- */
+
+@media only screen and  (max-width: 1024px) and  (min-width: 689px) {
+   .about-img{
+      margin-left: -50px;
+   }
+   .about-text{
+      width: 337px;
+   }
 }

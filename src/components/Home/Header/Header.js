@@ -21,19 +21,19 @@ const Header = () => {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src={slider1} class="d-block w-100" style={{height:'550px'}} alt="..."/>
+                    <img src={slider1} class="d-block w-100" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                    <img src={slider2} class="d-block w-100" style={{height:'550px'}} alt="..."/>
+                    <img src={slider2} class="d-block w-100"  alt="..."/>
                     </div>
                     <div class="carousel-item">
-                    <img src={slider3} class="d-block w-100" style={{height:'550px'}} alt="..."/>
+                    <img src={slider3} class="d-block w-100"  alt="..."/>
                     </div>
                     <div class="carousel-item">
-                    <img src={slider4} class="d-block w-100" style={{height:'550px'}} alt="..."/>
+                    <img src={slider4} class="d-block w-100"  alt="..."/>
                     </div>
                     <div class="carousel-item">
-                    <img src={slider5} class="d-block w-100" style={{height:'550px'}} alt="..."/>
+                    <img src={slider5} class="d-block w-100"  alt="..."/>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

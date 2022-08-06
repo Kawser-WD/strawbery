@@ -66,14 +66,8 @@
 /* -----------------------
   Mobile Device
 ----------------------- */
-@media only screen and  (max-width: 688px) {
-    /* .nav-link{
-        text-transform: uppercase;
-        color: black;
-        margin-right: 0px;
-        font-size: 13px;
-        font-weight: bold;
-    } */
+@media only screen and  (max-width: 688px) and (min-width: 360px){
+
     .navbar-brand img{
         width: 280px;
         height: auto;
@@ -85,6 +79,16 @@
     .shopping:hover{
         color: #fff;
     }
+}
+@media only screen and  (max-width: 360px){
+
+    .navbar-brand img{
+        width: 250px;
+    }
+    .about-text{
+        width: 300px;
+    }
+
 }
 
 

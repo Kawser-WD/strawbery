@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
         </div>
         <div className='copyright d-flex justify-content-center'>
-        <p>Copyright Grothendal Tanghe 2022-<span className='copyright-span'>webdesign by wlampert</span></p>
+        <p>Copyright Grothendal Tanghe 2022 - <span className='copyright-span'>webdesign by wlampert</span></p>
        </div>
         </>
     );

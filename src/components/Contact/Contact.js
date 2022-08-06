@@ -27,7 +27,7 @@ const Contact = () => {
             duration="2000"
             />
             <div className='d-flex justify-content-center mt-5'>
-            <h3 >Hoe kunnen wij jou helpen?</h3>
+            <h3 className='contact-title'>Hoe kunnen wij jou helpen?</h3>
             </div>
         <div className='container contact'>
             <form ref={form} onSubmit={sendEmail}>

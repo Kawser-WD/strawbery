@@ -59,6 +59,16 @@ const BestelOnline = () => {
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Btw number" name="btwnumber"/>
                         </div>
                       </div>
+                      <div className='col-lg-4 col-md-4 col-6'>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Adres" name="adres"/>
+                        </div>
+                      </div>
+                      <div className='col-lg-4 col-md-4 col-6'>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Leveringsdatum" name="leveringsdatum"/>
+                        </div>
+                      </div>
             </div>
         </div>
         <div className='bestel-table'>
@@ -66,9 +76,7 @@ const BestelOnline = () => {
             <div className='row'>
             <table>
               <tr>
-                <td className='number'>
-               1.
-                </td>
+                <td className='number1'>1.</td>
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
@@ -80,16 +88,26 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label input-field1">Stucks</label>
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stucks"/>
-                        </div>
+              <label for="exampleInputEmail1" class="form-label input-field1">Stuck</label>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                </div>
               </div>
                 </td>
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label input-field2">Type</label>
-                        <input type="text" class="form-control input-field2" id="FormControlInput1" defaultValue="Kg" disabled name="stucks"/>
+                        
+                  <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kg
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kg</a></li>
+                    <li><a class="dropdown-item" href="#">Stuk</a></li>
+                    <li><a class="dropdown-item" href="#">Kisten</a></li>
+                    <li><a class="dropdown-item" href="#">Bussel</a></li>
+                  </ul>
+               
                         </div>
               </div>
                 </td>
@@ -103,9 +121,7 @@ const BestelOnline = () => {
                 </td>
               </tr>
               <tr>
-                <td className='number'>
-               2.
-                </td>
+                <td className='number'>2.</td>
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
@@ -116,14 +132,22 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stucks"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
                         </div>
               </div>
                 </td>
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="text" class="form-control input-field2" id="FormControlInput1" defaultValue="Kg" disabled name="stucks"/>
+                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kg
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kg</a></li>
+                    <li><a class="dropdown-item" href="#">Stuk</a></li>
+                    <li><a class="dropdown-item" href="#">Kisten</a></li>
+                    <li><a class="dropdown-item" href="#">Bussel</a></li>
+                  </ul>
                         </div>
               </div>
                 </td>
@@ -136,9 +160,7 @@ const BestelOnline = () => {
                 </td>
               </tr>
               <tr>
-                <td className='number'>
-               3.
-                </td>
+                <td className='number'>3.</td>
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
@@ -149,14 +171,22 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stucks"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
                         </div>
               </div>
                 </td>
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="text" class="form-control input-field2" id="FormControlInput1" defaultValue="Kg" disabled name="stucks"/>
+                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kg
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kg</a></li>
+                    <li><a class="dropdown-item" href="#">Stuk</a></li>
+                    <li><a class="dropdown-item" href="#">Kisten</a></li>
+                    <li><a class="dropdown-item" href="#">Bussel</a></li>
+                  </ul>
                         </div>
               </div>
                 </td>
@@ -169,9 +199,7 @@ const BestelOnline = () => {
                 </td>
               </tr>
               <tr>
-                <td className='number'>
-               4.
-                </td>
+                <td className='number'>4.</td>
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
@@ -182,14 +210,248 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stucks"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
                         </div>
               </div>
                 </td>
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="text" class="form-control input-field2" id="FormControlInput1" defaultValue="Kg" disabled name="stucks"/>
+                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kg
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kg</a></li>
+                    <li><a class="dropdown-item" href="#">Stuk</a></li>
+                    <li><a class="dropdown-item" href="#">Kisten</a></li>
+                    <li><a class="dropdown-item" href="#">Bussel</a></li>
+                  </ul>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-4 col-md-4 col-4'>
+              <div class="mb-3">
+                        <input type="text" class="form-control input-text2" id="FormControlInput1"  name="opmerking"/>
+                        </div>
+              </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='number'>5.</td>
+                <td>
+                <div className='col-lg-6 col-md-6 col-6'>
+              <div class="mb-3">
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kg
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kg</a></li>
+                    <li><a class="dropdown-item" href="#">Stuk</a></li>
+                    <li><a class="dropdown-item" href="#">Kisten</a></li>
+                    <li><a class="dropdown-item" href="#">Bussel</a></li>
+                  </ul>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-4 col-md-4 col-4'>
+              <div class="mb-3">
+                        <input type="text" class="form-control input-text2" id="FormControlInput1"  name="opmerking"/>
+                        </div>
+              </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='number'>6.</td>
+                <td>
+                <div className='col-lg-6 col-md-6 col-6'>
+              <div class="mb-3">
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kg
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kg</a></li>
+                    <li><a class="dropdown-item" href="#">Stuk</a></li>
+                    <li><a class="dropdown-item" href="#">Kisten</a></li>
+                    <li><a class="dropdown-item" href="#">Bussel</a></li>
+                  </ul>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-4 col-md-4 col-4'>
+              <div class="mb-3">
+                        <input type="text" class="form-control input-text2" id="FormControlInput1"  name="opmerking"/>
+                        </div>
+              </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='number'>7.</td>
+                <td>
+                <div className='col-lg-6 col-md-6 col-6'>
+              <div class="mb-3">
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <input type="text" class="form-control input-field2" id="FormControlInput1" defaultValue="Kg" disabled name="stuck"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-4 col-md-4 col-4'>
+              <div class="mb-3">
+                        <input type="text" class="form-control input-text2" id="FormControlInput1"  name="opmerking"/>
+                        </div>
+              </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='number'>8.</td>
+                <td>
+                <div className='col-lg-6 col-md-6 col-6'>
+              <div class="mb-3">
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kg
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kg</a></li>
+                    <li><a class="dropdown-item" href="#">Stuk</a></li>
+                    <li><a class="dropdown-item" href="#">Kisten</a></li>
+                    <li><a class="dropdown-item" href="#">Bussel</a></li>
+                  </ul>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-4 col-md-4 col-4'>
+              <div class="mb-3">
+                        <input type="text" class="form-control input-text2" id="FormControlInput1"  name="opmerking"/>
+                        </div>
+              </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='number'>9.</td>
+                <td>
+                <div className='col-lg-6 col-md-6 col-6'>
+              <div class="mb-3">
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kg
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kg</a></li>
+                    <li><a class="dropdown-item" href="#">Stuk</a></li>
+                    <li><a class="dropdown-item" href="#">Kisten</a></li>
+                    <li><a class="dropdown-item" href="#">Bussel</a></li>
+                  </ul>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-4 col-md-4 col-4'>
+              <div class="mb-3">
+                        <input type="text" class="form-control input-text2" id="FormControlInput1"  name="opmerking"/>
+                        </div>
+              </div>
+                </td>
+              </tr>
+              <tr>
+                <td className='number'>10.</td>
+                <td>
+                <div className='col-lg-6 col-md-6 col-6'>
+              <div class="mb-3">
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        </div>
+              </div>
+                </td>
+                <td>
+                <div className='col-lg-1 col-md-1 col-1'>
+              <div class="mb-3">
+                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kg
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kg</a></li>
+                    <li><a class="dropdown-item" href="#">Stuk</a></li>
+                    <li><a class="dropdown-item" href="#">Kisten</a></li>
+                    <li><a class="dropdown-item" href="#">Bussel</a></li>
+                  </ul>
                         </div>
               </div>
                 </td>

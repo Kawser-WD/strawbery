@@ -8,7 +8,7 @@ import "./Fruits.css";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 1, itemsToScroll: 1, pagination: false },
+  { width: 550, height:600, itemsToShow: 1, itemsToScroll: 1, pagination: false },
   { width: 850, itemsToShow: 1 },
   { width: 1150, itemsToShow: 1, itemsToScroll: 1 },
   { width: 1450, itemsToShow: 1 },
@@ -24,16 +24,16 @@ const Fruits = () => {
       <div className="fruits">
         <Carousel breakPoints={breakPoints} >
           <Item>
-            <img src={Image1} alt=""/>
+            <img src={Image1} className="fruits-img" alt=""/>
           </Item>
           <Item>
-            <img src={Image2} alt=""/>
+            <img src={Image2}  className="fruits-img" alt=""/>
           </Item>
           <Item>
-            <img src={Image3} alt=""/>
+            <img src={Image3}  className="fruits-img" alt=""/>
           </Item>
           <Item>
-            <img src={Image1} alt=""/>
+            <img src={Image1}  className="fruits-img" alt=""/>
           </Item>
         </Carousel>
       </div>

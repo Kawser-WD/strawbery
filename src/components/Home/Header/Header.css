@@ -9,3 +9,7 @@
     margin-right: 500px;
     margin-bottom: 80px;
 }
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}

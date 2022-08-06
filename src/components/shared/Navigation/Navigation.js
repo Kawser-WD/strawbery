@@ -29,9 +29,6 @@ const Navigation = () => {
                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">over ons</a>
-              </li>
-              <li class="nav-item">
                 <Link to="/fotos" style={{textDecoration:'none'}}><a class="nav-link" href="#" tabindex="-1" aria-disabled="true">foto's</a></Link>
               </li>
               <li class="nav-item">
@@ -48,11 +45,9 @@ const Navigation = () => {
           </div>
         </div>
       </nav>
-      <ReactHoverObserver class="hover">
-      
-            <Hover />
-  
-    </ReactHoverObserver>
+      <div className='headline'>
+      <p className="headline-text">Wij leveren dagelijks 7 op 7 verse kawalitietvolle groeten fruit</p>
+   </div>
     </div>
     );
 };

@@ -1,5 +1,5 @@
 .fruits{
-  padding: 1% 10%;
+  padding: 5% 18%;
   }
   .title{
     margin-top: 80px;
@@ -10,19 +10,48 @@
     padding: 5px 12px;
   }
   .rec.rec-arrow {
-    background-color: red;
+    background-color: #BD2322;
     color: white;
 }
-  /* .rec.rec-arrow-left{
-    margin-left: 250px;
-}
-  .rec.rec-arrow-right{
-    margin-right: 250px;
-} */
 
 .rec.rec-arrow:hover {
-    background-color: red;
+    background-color: #BD2322;
+    color: #BD2322;
 }
 .rec.rec-dot{
-    background-color: red;
+    background-color: #BD2322;
+}
+.fruits-img{
+  width: 555px;
+}
+
+
+
+
+
+
+/* -----------------------
+    Media Queries
+----------------------- */
+
+/* -----------------------
+  Mobile Device
+----------------------- */
+
+
+@media only screen and  (max-width: 688px)  {
+  .fruits{
+    padding: 5% 2%;
+    }
+}
+
+
+/* -----------------------
+Tablet Device
+----------------------- */
+
+@media only screen and  (max-width: 1024px) and  (min-width: 689px) {
+  .fruits{
+    padding: 5% 6%;
+    }
 }
