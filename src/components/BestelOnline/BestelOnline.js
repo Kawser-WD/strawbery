@@ -10,7 +10,7 @@ const BestelOnline = () => {
 
     emailjs.sendForm('service_w795alg', 'template_ebtzpgk', e.target, '1MVIkRXCRQGngUelf')
       .then((result) => {
-         toast.success('Thanks for your message')
+         toast.success('Your Order Place successfully!')
          e.target.reset();
       }, (error) => {
           console.log(error.text);
@@ -24,7 +24,7 @@ const BestelOnline = () => {
             duration="2000"
             />
           <div>
-            <h2 className='bestel-title'>Plats hier snel en eenvoudig uw bestelling!</h2>
+            <h2 className='bestel-title'>Plaats hier snel en eenvoudig uw bestelling!</h2>
           </div>
           <form  onSubmit={sendEmail}>
             <div className='container bestel'>
@@ -81,14 +81,14 @@ const BestelOnline = () => {
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label input-label">Omschrijving</label>
-                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                       <input type="text" class="form-control input-text1" id="FormControlInput1" placeholder='Aardbeien'  name="product_naam"/>
                         </div>
               </div>
                 </td>
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label input-field1">Stuck</label>
+              <label for="exampleInputEmail1" class="form-label input-field1">Stuks</label>
                         <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
                 </div>
               </div>
@@ -96,17 +96,13 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label input-field2">Type</label>
-                        
-                  <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Kg
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Kg</a></li>
-                    <li><a class="dropdown-item" href="#">Stuk</a></li>
-                    <li><a class="dropdown-item" href="#">Kisten</a></li>
-                    <li><a class="dropdown-item" href="#">Bussel</a></li>
-                  </ul>
+              <label for="exampleInputEmail1" class="form-label label-field">Type</label>
+                  <select class="form-select input-field2" aria-label="Default select example">
+                                <option value="1">Kg</option>
+                                <option value="2">Stuk</option>
+                                <option value="3">Kisten</option>
+                                <option value="4">Bussel</option>
+                            </select>
                
                         </div>
               </div>
@@ -125,7 +121,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
-                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"   name="product_naam"/>
                         </div>
               </div>
                 </td>
@@ -139,15 +135,13 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Kg
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Kg</a></li>
-                    <li><a class="dropdown-item" href="#">Stuk</a></li>
-                    <li><a class="dropdown-item" href="#">Kisten</a></li>
-                    <li><a class="dropdown-item" href="#">Bussel</a></li>
-                  </ul>
+              <select class="form-select input-field2" aria-label="Default select example">
+                                <option value="1">Kg</option>
+                                <option value="2">Stuk</option>
+                                <option value="3">Kisten</option>
+                                <option value="4">Bussel</option>
+                            </select>
+               
                         </div>
               </div>
                 </td>
@@ -164,7 +158,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
-                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"   name="product_naam"/>
                         </div>
               </div>
                 </td>
@@ -178,15 +172,12 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Kg
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Kg</a></li>
-                    <li><a class="dropdown-item" href="#">Stuk</a></li>
-                    <li><a class="dropdown-item" href="#">Kisten</a></li>
-                    <li><a class="dropdown-item" href="#">Bussel</a></li>
-                  </ul>
+              <select class="form-select input-field2" aria-label="Default select example">
+                                <option value="1">Kg</option>
+                                <option value="2">Stuk</option>
+                                <option value="3">Kisten</option>
+                                <option value="4">Bussel</option>
+                            </select>
                         </div>
               </div>
                 </td>
@@ -203,7 +194,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
-                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"   name="product_naam"/>
                         </div>
               </div>
                 </td>
@@ -217,15 +208,13 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Kg
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Kg</a></li>
-                    <li><a class="dropdown-item" href="#">Stuk</a></li>
-                    <li><a class="dropdown-item" href="#">Kisten</a></li>
-                    <li><a class="dropdown-item" href="#">Bussel</a></li>
-                  </ul>
+              <select class="form-select input-field2" aria-label="Default select example">
+                                <option value="1">Kg</option>
+                                <option value="2">Stuk</option>
+                                <option value="3">Kisten</option>
+                                <option value="4">Bussel</option>
+                            </select>
+               
                         </div>
               </div>
                 </td>
@@ -242,7 +231,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
-                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"   name="product_naam"/>
                         </div>
               </div>
                 </td>
@@ -256,15 +245,13 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Kg
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Kg</a></li>
-                    <li><a class="dropdown-item" href="#">Stuk</a></li>
-                    <li><a class="dropdown-item" href="#">Kisten</a></li>
-                    <li><a class="dropdown-item" href="#">Bussel</a></li>
-                  </ul>
+              <select class="form-select input-field2" aria-label="Default select example">
+                                <option value="1">Kg</option>
+                                <option value="2">Stuk</option>
+                                <option value="3">Kisten</option>
+                                <option value="4">Bussel</option>
+                            </select>
+               
                         </div>
               </div>
                 </td>
@@ -281,7 +268,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
-                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"   name="product_naam"/>
                         </div>
               </div>
                 </td>
@@ -295,15 +282,13 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Kg
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Kg</a></li>
-                    <li><a class="dropdown-item" href="#">Stuk</a></li>
-                    <li><a class="dropdown-item" href="#">Kisten</a></li>
-                    <li><a class="dropdown-item" href="#">Bussel</a></li>
-                  </ul>
+              <select class="form-select input-field2" aria-label="Default select example">
+                                <option value="1">Kg</option>
+                                <option value="2">Stuk</option>
+                                <option value="3">Kisten</option>
+                                <option value="4">Bussel</option>
+                            </select>
+               
                         </div>
               </div>
                 </td>
@@ -320,7 +305,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
-                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"   name="product_naam"/>
                         </div>
               </div>
                 </td>
@@ -334,7 +319,13 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="text" class="form-control input-field2" id="FormControlInput1" defaultValue="Kg" disabled name="stuck"/>
+              <select class="form-select input-field2" aria-label="Default select example">
+                                <option value="1">Kg</option>
+                                <option value="2">Stuk</option>
+                                <option value="3">Kisten</option>
+                                <option value="4">Bussel</option>
+                            </select>
+               
                         </div>
               </div>
                 </td>
@@ -351,7 +342,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
-                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"   name="product_naam"/>
                         </div>
               </div>
                 </td>
@@ -365,15 +356,13 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Kg
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Kg</a></li>
-                    <li><a class="dropdown-item" href="#">Stuk</a></li>
-                    <li><a class="dropdown-item" href="#">Kisten</a></li>
-                    <li><a class="dropdown-item" href="#">Bussel</a></li>
-                  </ul>
+              <select class="form-select input-field2" aria-label="Default select example">
+                                <option value="1">Kg</option>
+                                <option value="2">Stuk</option>
+                                <option value="3">Kisten</option>
+                                <option value="4">Bussel</option>
+                            </select>
+               
                         </div>
               </div>
                 </td>
@@ -390,7 +379,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
-                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"   name="product_naam"/>
                         </div>
               </div>
                 </td>
@@ -404,15 +393,13 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Kg
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Kg</a></li>
-                    <li><a class="dropdown-item" href="#">Stuk</a></li>
-                    <li><a class="dropdown-item" href="#">Kisten</a></li>
-                    <li><a class="dropdown-item" href="#">Bussel</a></li>
-                  </ul>
+              <select class="form-select input-field2" aria-label="Default select example">
+                                <option value="1">Kg</option>
+                                <option value="2">Stuk</option>
+                                <option value="3">Kisten</option>
+                                <option value="4">Bussel</option>
+                            </select>
+               
                         </div>
               </div>
                 </td>
@@ -429,7 +416,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-6 col-md-6 col-6'>
               <div class="mb-3">
-                       <input type="text" class="form-control input-text1" id="FormControlInput1"  defaultValue="Aardbeien" name="product_naam"/>
+                       <input type="text" class="form-control input-text1" id="FormControlInput1"   name="product_naam"/>
                         </div>
               </div>
                 </td>
@@ -443,15 +430,13 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <button type="button" class="type-btn dropdown-toggle input-field2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Kg
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Kg</a></li>
-                    <li><a class="dropdown-item" href="#">Stuk</a></li>
-                    <li><a class="dropdown-item" href="#">Kisten</a></li>
-                    <li><a class="dropdown-item" href="#">Bussel</a></li>
-                  </ul>
+              <select class="form-select input-field2" aria-label="Default select example">
+                                <option value="1">Kg</option>
+                                <option value="2">Stuk</option>
+                                <option value="3">Kisten</option>
+                                <option value="4">Bussel</option>
+                            </select>
+               
                         </div>
               </div>
                 </td>

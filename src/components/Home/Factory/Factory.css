@@ -6,13 +6,15 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: small;
+    line-height: normal;
+    width: 304px;
 }
 .factory-title{
     font-size: 25px;
     font-family: 'Trebuchet MS';
 }
 .factory-img{
-    height: 220px;
+    height: 240px;
     width: 300px;
     object-fit: cover;
 }

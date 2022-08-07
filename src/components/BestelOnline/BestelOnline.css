@@ -29,15 +29,20 @@ placeholder{
     margin-left: -82px;
 }
 .input-field2{
-    width: 60px;
+    width: 95px;
     text-align: center;
-    margin-right: -25px;
+    margin-right: 0px;
+    background-color: #EEEEEE;
+    border: none;
+}
+.label-field{
+    margin-left: 28px;
 }
 .input-field3{
     margin-left: 0px;
 }
 .input-text1{
-    width: 360px;
+    width: 330px;
     margin-right: 50px;
 }
 .input-text2{
@@ -61,7 +66,9 @@ placeholder{
 }
 
 
-
+.form-label{
+   font-family:  'Montserrat', sans-serif;
+}
 
 /* -----------------------
     Media Queries

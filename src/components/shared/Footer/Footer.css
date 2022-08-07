@@ -7,10 +7,11 @@
    background-image: url("../../Images/Footer/website_ann&wim.png");
 }
 .footer-title{
-  font-family:'Trebuchet MS Italic';
-  font-size: 33px;
+  font-family:'Montserrat', sans-serif;
+  font-size: 40px;
   margin-top: 10px;
   font-style: italic;
+  margin-left: -50px;
 }
 .footer-text p{
   margin-bottom: 0;
@@ -28,6 +29,8 @@
 .copyright-span{
   font-size: 14px;
   color: #fff;
+  font-family:  'Trebuchet MS';
+  font-weight: bold;
 }
 #image{
     position: absolute;
