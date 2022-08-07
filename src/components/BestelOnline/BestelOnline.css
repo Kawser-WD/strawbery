@@ -66,10 +66,6 @@ placeholder{
 }
 
 
-.form-label{
-   font-family:  'Montserrat', sans-serif;
-}
-
 /* -----------------------
     Media Queries
 ----------------------- */
@@ -79,29 +75,29 @@ placeholder{
 ----------------------- */
 
 
-@media only screen and  (max-width: 688px) {
+@media only screen and  (max-width: 688px) and (min-width:360px) {
     .bestel-table{
         padding: 1% 2%;
     }
     .input-field1{
         width: 45px;
         text-align: center;
-        margin-left: -55px;
+        margin-left: -48px;
     }
     .input-field2{
-        width: 46px;
+        width: 80px;
         text-align: center;
-        margin-right: -15px;
+        margin-right: 8px;
     }
     .input-field3{
-        margin-left: 0;
+        margin-left: -14px;
     }
     .input-text1{
-        width: 110px;
+        width: 95px;
     }
     .input-text2{
         margin-left: -10px;
-        width: 100px;
+        width: 80px;
     }
 }
 
@@ -110,7 +106,7 @@ placeholder{
   Tablet Device
 ----------------------- */
 
-@media only screen and  (max-width: 1024px) and  (min-width: 688px) {
+/* @media only screen and  (max-width: 1024px) and  (min-width: 688px) {
     .input-field1{
         width: 48px;
         text-align: center;
@@ -143,4 +139,4 @@ placeholder{
     table{
         margin-left: -50px;
     }
-}
+} */

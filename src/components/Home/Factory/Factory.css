@@ -18,5 +18,17 @@
     object-fit: cover;
 }
 
+@media only screen and  (max-width: 688px) and (min-width: 360px) {
+    .factory{
+       padding: 4% 4%;
+    }
+  }
+
+  @media only screen and  (max-width: 1024px) and  (min-width: 689px) {
+    .factory{
+        padding: 4% 6%;
+     }
+}
+
 
 

@@ -19,3 +19,15 @@
    height: 245px;
    object-fit: cover;
 }
+
+
+@media only screen and  (max-width: 688px) and (min-width: 360px) {
+   .about{
+      padding: 4% 4%;
+   }
+ }
+ @media only screen and  (max-width: 1024px) and  (min-width: 689px) {
+   .about{
+       padding: 4% 6%;
+    }
+}
