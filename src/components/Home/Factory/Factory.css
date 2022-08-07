@@ -18,6 +18,9 @@
     width: 300px;
     object-fit: cover;
 }
+.factory-row{
+    margin-left: 65px;
+}
 
 
 
@@ -39,8 +42,8 @@ Tablet Device
         margin-left: -65px;
      }
 }
-@media only screen and  (min-width: 1024px)  {
+/* @media only screen and  (min-width: 1024px)  {
      .factory-row{
         margin-left: 55px;
      }
-}
+} */

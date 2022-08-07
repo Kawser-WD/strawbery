@@ -6,7 +6,7 @@
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
    font-size: smaller;
-   width: 337px;
+   width: 340px;
    line-height: normal;
 }
 .about-title{
@@ -47,11 +47,11 @@ Tablet Device
       width: 337px;
    }
 }
-@media only screen and  (min-width: 1024px)  {
+/* @media only screen and  (min-width: 1024px)  {
    .about-img{
       margin-left: 70px;
    }
    .about-text{
       width: 337px;
    }
-}
+} */
