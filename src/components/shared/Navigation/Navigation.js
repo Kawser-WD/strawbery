@@ -5,8 +5,6 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './Navigation.css'
 import Logo from '../../Images/ANN-&-WIM-TANGHE-LOGO.png';
 import { Link } from 'react-router-dom';
-import Hover from '../Hover/Hover';
-import ReactHoverObserver from 'react-hover-observer';
 
 const Navigation = () => {
     return (

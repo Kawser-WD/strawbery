@@ -22,36 +22,3 @@
    margin-top: 10px;
    object-fit: cover;
 }
-
-
-@media only screen and  (max-width: 688px) {
- 
-   .about-img{
-      margin-left: -16px;
-   }
-   .about-column{
-      margin-left: -5%;
-   }
-}
-
-
-/* -----------------------
-Tablet Device
------------------------ */
-
-@media only screen and  (max-width: 1024px) and  (min-width: 689px) {
-   .about-img{
-      margin-left: -50px;
-   }
-   .about-text{
-      width: 337px;
-   }
-}
-/* @media only screen and  (min-width: 1024px)  {
-   .about-img{
-      margin-left: 70px;
-   }
-   .about-text{
-      width: 337px;
-   }
-} */
