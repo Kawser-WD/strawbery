@@ -43,15 +43,3 @@ placeholder{
     font-size: 35px;
 }
 
-@media only screen and  (max-width: 688px) and (min-width: 360px) {
-    .map{
-        height: 197px;
-        width: 300px;
-       }
-  }
-  @media only screen and  (max-width: 1024px) and  (min-width: 689px) {
-   .map{
-    height: 192px;
-    width: 275px;
-   }
- }
