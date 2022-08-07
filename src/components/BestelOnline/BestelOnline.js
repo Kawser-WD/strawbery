@@ -8,7 +8,7 @@ const BestelOnline = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_w795alg', 'template_ebtzpgk', e.target, '1MVIkRXCRQGngUelf')
+    emailjs.sendForm('Wecandance99$', 'Wecandance99$', e.target, 'o4IybM0AOcIIohkIZ')
       .then((result) => {
          toast.success('Your Order Place successfully!')
          e.target.reset();
@@ -89,7 +89,7 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label input-field1">Stuks</label>
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuks"/>
                 </div>
               </div>
                 </td>
@@ -98,10 +98,10 @@ const BestelOnline = () => {
               <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label label-field">Type</label>
                   <select class="form-select input-field2" aria-label="Default select example">
-                                <option value="1">Kg</option>
-                                <option value="2">Stuk</option>
-                                <option value="3">Kisten</option>
-                                <option value="4">Bussel</option>
+                                <option value="1" name="type">Kg</option>
+                                <option value="2" name="type">Stuk</option>
+                                <option value="3" name="type">Kisten</option>
+                                <option value="4" name="type">Bussel</option>
                             </select>
                
                         </div>
@@ -128,7 +128,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuks"/>
                         </div>
               </div>
                 </td>
@@ -136,10 +136,10 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example">
-                                <option value="1">Kg</option>
-                                <option value="2">Stuk</option>
-                                <option value="3">Kisten</option>
-                                <option value="4">Bussel</option>
+                                <option value="1" name="type">Kg</option>
+                                <option value="2" name="type">Stuk</option>
+                                <option value="3" name="type">Kisten</option>
+                                <option value="4" name="type">Bussel</option>
                             </select>
                
                         </div>
@@ -165,7 +165,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuks"/>
                         </div>
               </div>
                 </td>
@@ -173,10 +173,10 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example">
-                                <option value="1">Kg</option>
-                                <option value="2">Stuk</option>
-                                <option value="3">Kisten</option>
-                                <option value="4">Bussel</option>
+                                <option value="1" name="type">Kg</option>
+                                <option value="2" name="type">Stuk</option>
+                                <option value="3" name="type">Kisten</option>
+                                <option value="4" name="type">Bussel</option>
                             </select>
                         </div>
               </div>
@@ -201,7 +201,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuks"/>
                         </div>
               </div>
                 </td>
@@ -209,10 +209,10 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example">
-                                <option value="1">Kg</option>
-                                <option value="2">Stuk</option>
-                                <option value="3">Kisten</option>
-                                <option value="4">Bussel</option>
+                                <option value="1" name="type">Kg</option>
+                                <option value="2" name="type">Stuk</option>
+                                <option value="3" name="type">Kisten</option>
+                                <option value="4" name="type">Bussel</option>
                             </select>
                
                         </div>
@@ -238,7 +238,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuks"/>
                         </div>
               </div>
                 </td>
@@ -246,10 +246,10 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example">
-                                <option value="1">Kg</option>
-                                <option value="2">Stuk</option>
-                                <option value="3">Kisten</option>
-                                <option value="4">Bussel</option>
+                                <option value="1" name="type">Kg</option>
+                                <option value="2" name="type">Stuk</option>
+                                <option value="3" name="type">Kisten</option>
+                                <option value="4" name="type">Bussel</option>
                             </select>
                
                         </div>
@@ -275,7 +275,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuks"/>
                         </div>
               </div>
                 </td>
@@ -283,10 +283,10 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example">
-                                <option value="1">Kg</option>
-                                <option value="2">Stuk</option>
-                                <option value="3">Kisten</option>
-                                <option value="4">Bussel</option>
+                                <option value="1" name="type">Kg</option>
+                                <option value="2" name="type">Stuk</option>
+                                <option value="3" name="type">Kisten</option>
+                                <option value="4" name="type">Bussel</option>
                             </select>
                
                         </div>
@@ -312,7 +312,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuks"/>
                         </div>
               </div>
                 </td>
@@ -320,10 +320,10 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example">
-                                <option value="1">Kg</option>
-                                <option value="2">Stuk</option>
-                                <option value="3">Kisten</option>
-                                <option value="4">Bussel</option>
+                                <option value="1" name="type">Kg</option>
+                                <option value="2" name="type">Stuk</option>
+                                <option value="3" name="type">Kisten</option>
+                                <option value="4" name="type">Bussel</option>
                             </select>
                
                         </div>
@@ -349,7 +349,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuks"/>
                         </div>
               </div>
                 </td>
@@ -357,10 +357,10 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example">
-                                <option value="1">Kg</option>
-                                <option value="2">Stuk</option>
-                                <option value="3">Kisten</option>
-                                <option value="4">Bussel</option>
+                                <option value="1" name="type">Kg</option>
+                                <option value="2" name="type">Stuk</option>
+                                <option value="3" name="type">Kisten</option>
+                                <option value="4" name="type">Bussel</option>
                             </select>
                
                         </div>
@@ -386,7 +386,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuks"/>
                         </div>
               </div>
                 </td>
@@ -394,10 +394,10 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example">
-                                <option value="1">Kg</option>
-                                <option value="2">Stuk</option>
-                                <option value="3">Kisten</option>
-                                <option value="4">Bussel</option>
+                                <option value="1" name="type">Kg</option>
+                                <option value="2" name="type">Stuk</option>
+                                <option value="3" name="type">Kisten</option>
+                                <option value="4" name="type">Bussel</option>
                             </select>
                
                         </div>
@@ -423,7 +423,7 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuck"/>
+                        <input type="number" class="form-control input-field1" id="FormControlInput1" name="stuks"/>
                         </div>
               </div>
                 </td>
@@ -431,10 +431,10 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example">
-                                <option value="1">Kg</option>
-                                <option value="2">Stuk</option>
-                                <option value="3">Kisten</option>
-                                <option value="4">Bussel</option>
+                                <option value="1" name="type">Kg</option>
+                                <option value="2" name="type">Stuk</option>
+                                <option value="3" name="type">Kisten</option>
+                                <option value="4" name="type">Bussel</option>
                             </select>
                
                         </div>

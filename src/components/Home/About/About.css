@@ -1,12 +1,12 @@
 .about{
-   padding: 4% 14%;
+   padding: 4% 19%;
 }
 
 .about-text{
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
    font-size: smaller;
-   width: 340px;
+   width: 318px;
    line-height: normal;
 }
 .about-title{
@@ -16,9 +16,6 @@
 
 }
 .about-img{
-   height: 240px;
-   width: 300px;
-   margin-left: 80px;
-   margin-top: 10px;
+   height: 245px;
    object-fit: cover;
 }

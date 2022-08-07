@@ -1,5 +1,5 @@
 .factory{
-   padding: 4% 14%;
+   padding: 4% 19%;
     background-color: #EAEAEA;
 }
 .factory-text{
@@ -14,12 +14,8 @@
     font-family: 'Trebuchet MS';
 }
 .factory-img{
-    height: 240px;
-    width: 300px;
+    height: 245px;
     object-fit: cover;
-}
-.factory-row{
-    margin-left: 65px;
 }
 
 

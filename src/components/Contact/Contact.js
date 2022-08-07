@@ -10,7 +10,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_w795alg', 'template_ebtzpgk', e.target, '1MVIkRXCRQGngUelf')
+      emailjs.sendForm('Wecandance99$', 'Wecandance99', e.target, 'o4IybM0AOcIIohkIZ')
         .then((result) => {
            toast.success('Thanks for your message')
            e.target.reset()
