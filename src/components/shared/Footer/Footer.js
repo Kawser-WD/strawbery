@@ -27,7 +27,7 @@ const Footer = () => {
                             <p>8370 Blankenberge</p>
                             <a href="mailto:Info@wimtanghe.be" style={{position:'relative', zIndex:'10'}} className='text-white'>Info@wimtanghe.be</a>
                         </div>
-                        <div className='col-lg-3 col-md-3 col-6' style={{marginTop:'10px', color:'#fff'}}>
+                        <div className='col-lg-3 col-md-3 col-6' style={{marginTop:'30px', color:'#fff'}}>
                             <FontAwesomeIcon icon={faInstagram} style={{height:'40px', width:'40px',color:'#fff'}}></FontAwesomeIcon>
                             <FontAwesomeIcon icon={faFacebookF} style={{height:'40px', width:'40px',color:'#fff'}}></FontAwesomeIcon>
                         </div>
