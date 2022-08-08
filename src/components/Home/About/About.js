@@ -10,7 +10,7 @@ const About = () => {
                         <img src={factoryImage} className="about-img img-fluid" alt=""/>
                     </div>
                     <div className='col-lg-6 col-md-6 col-12 mt-3 about-column'>
-                        <h4 className='about-title'>Welcome bij Groenten en Fruithandle <br/>Ann & wim Guillaume</h4>
+                        <h4 className='about-title'>Welkome bij Groenten en Fruithandel <br/>Ann & wim, Guillaume</h4>
                         <p className='about-text mt-4'>Reeds tientallen jaren heten wij iedereen
                             welkom in onze handel. Ons bedrijf is gevestigd
                             in Blankenberge Steenovenstraat 8/10.

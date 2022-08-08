@@ -64,7 +64,7 @@ const Contact = () => {
                       </div>
             </div>
             <div class="mb-3">
-            <textarea class="text-message" id="exampleFormControlTextarea1" rows="3" placeholder='Message' name="message"></textarea>
+            <textarea class="text-message form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Message' name="message"></textarea>
             </div>
             <div class="mb-3 d-flex justify-content-center">
            <button type="submit" value="Send"className='button'>VERSTUREN</button>
@@ -76,7 +76,7 @@ const Contact = () => {
                     <img src={Image1} className="img-fluid" alt=""/>
                 </div>
                 <div className='col-lg-6 col-md-6 col-sm-12 col-12'>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9978.779987808866!2d3.1466711!3d51.2983367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97f5bf26845d9ce4!2sWim%20Tanghe%20Bvba!5e0!3m2!1sen!2sbd!4v1659855623449!5m2!1sen!2sbd" className='map' style={{border:'0', height:'295px', width:'400px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9978.779987808866!2d3.1466711!3d51.2983367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97f5bf26845d9ce4!2sWim%20Tanghe%20Bvba!5e0!3m2!1sen!2sbd!4v1659855623449!5m2!1sen!2sbd" className='map' style={{border:'0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

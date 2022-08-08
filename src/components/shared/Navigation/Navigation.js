@@ -44,7 +44,7 @@ const Navigation = () => {
         </div>
       </nav>
       <div className='headline'>
-      <p className="headline-text">Wij leveren dagelijks 7 op 7 verse kawalitietvolle groeten fruit</p>
+      <p className="headline-text">Wij leveren dagelijks 7 op 7 verse kwalitietvolle groeten & fruit</p>
    </div>
     </div>
     );
