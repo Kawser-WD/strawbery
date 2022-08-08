@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 import Image1 from '../Images/Schermafbeelding 2022-07-30 om 17.12.20.png';
-import location from '../Images/Location.png';
 import './Contact.css';
 const Contact = () => {
     const form = useRef();
@@ -10,7 +9,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('Wecandance99$', 'Wecandance99', e.target, 'o4IybM0AOcIIohkIZ')
+      emailjs.sendForm('Wecandance99$', 'Wecandance99', e.target, 'IUMe4r9MxhmmkAXHw')
         .then((result) => {
            toast.success('Thanks for your message')
            e.target.reset()
