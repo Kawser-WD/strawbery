@@ -64,7 +64,7 @@ const Contact = () => {
                       </div>
             </div>
             <div class="mb-3">
-            <textarea class="text-message form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Message' name="message"></textarea>
+            <textarea class="text-message form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Beschrijving' name="message"></textarea>
             </div>
             <div class="mb-3 d-flex justify-content-center">
            <button type="submit" value="Send"className='button'>VERSTUREN</button>
