@@ -98,6 +98,7 @@ const BestelOnline = () => {
               <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label label-field">Type</label>
                   <select class="form-select input-field2" aria-label="Default select example" name='type'>
+                                <option></option>
                                 <option value="Kg">Kg</option>
                                 <option value="Stuk">Stuk</option>
                                 <option value="Kisten">Kisten</option>
@@ -136,6 +137,7 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example" name='type'>
+                                <option></option>
                                 <option value="Kg">Kg</option>
                                 <option value="Stuk">Stuk</option>
                                 <option value="Kisten">Kisten</option>
@@ -173,6 +175,7 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example" name='type'>
+                                <option></option>
                                 <option value="Kg">Kg</option>
                                 <option value="Stuk">Stuk</option>
                                 <option value="Kisten">Kisten</option>
@@ -208,7 +211,8 @@ const BestelOnline = () => {
                 <td>
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
-              <select class="form-select input-field2" aria-label="Default select example" name='type'>
+              <select class="form-select input-field2" aria-label="Default select example" name='type' >
+                                <option></option>
                                 <option value="Kg">Kg</option>
                                 <option value="Stuk">Stuk</option>
                                 <option value="Kisten">Kisten</option>
@@ -246,6 +250,7 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example" name='type'>
+                                <option></option>
                                 <option value="Kg">Kg</option>
                                 <option value="Stuk">Stuk</option>
                                 <option value="Kisten">Kisten</option>
@@ -283,6 +288,7 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example" name='type'>
+                                <option></option>
                                 <option value="Kg">Kg</option>
                                 <option value="Stuk">Stuk</option>
                                 <option value="Kisten">Kisten</option>
@@ -320,6 +326,7 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example" name='type'>
+                                <option></option>
                                 <option value="Kg">Kg</option>
                                 <option value="Stuk">Stuk</option>
                                 <option value="Kisten">Kisten</option>
@@ -357,6 +364,7 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example" name='type'>
+                                <option></option>
                                 <option value="Kg">Kg</option>
                                 <option value="Stuk">Stuk</option>
                                 <option value="Kisten">Kisten</option>
@@ -394,6 +402,7 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example" name="type">
+                                <option></option>
                                 <option value="Kg">Kg</option>
                                 <option value="Stuk">Stuk</option>
                                 <option value="Kisten">Kisten</option>
@@ -431,6 +440,7 @@ const BestelOnline = () => {
                 <div className='col-lg-1 col-md-1 col-1'>
               <div class="mb-3">
               <select class="form-select input-field2" aria-label="Default select example" name="type">
+                                <option></option>
                                 <option value="Kg">Kg</option>
                                 <option value="Stuk">Stuk</option>
                                 <option value="Kisten">Kisten</option>
