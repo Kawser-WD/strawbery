@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../Images/slider top/productfoto-69.jpg'
+import image from '../../Images/Pro 5.jpg'
 import './Factory.css'
 const Factory = () => {
     return (

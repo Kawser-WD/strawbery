@@ -1,18 +1,17 @@
 import React from 'react';
-import productfoto1 from '../Images/slider under/productfoto-112.jpg' 
-import productfoto2 from '../Images/slider under/productfoto-114.jpg' 
-import productfoto3 from '../Images/slider under/productfoto-125.jpg' 
-import productfoto4 from '../Images/slider under/productfoto-135.jpg' 
-import productfoto5 from '../Images/slider under/productfoto-24.jpg' 
-import productfoto6 from '../Images/slider under/productfoto-25.jpg' 
-import productfoto7 from '../Images/slider under/productfoto-35.jpg' 
-import productfoto8 from '../Images/slider under/productfoto-4.jpg' 
-import productfoto9 from '../Images/slider under/productfoto-5.jpg' 
-import productfoto10 from '../Images/slider under/productfoto-65.jpg' 
-import productfoto11 from '../Images/slider under/productfoto-99.jpg' 
-import productfoto12 from '../Images/slider under/productfoto-113.jpg' 
-import productfoto13 from '../Images/slider under/productfoto-29.jpg' 
-import productfoto14 from '../Images/slider under/1.jpg' 
+import productfoto1 from '../Images/FOTOS/Pro 1.jpg'; 
+import productfoto2 from '../Images/FOTOS/Pro 2.jpg'; 
+import productfoto3 from '../Images/FOTOS/Pro 3.jpg'; 
+import productfoto4 from '../Images/FOTOS/Pro 4.jpg'; 
+import productfoto5 from '../Images/FOTOS/Pro 5.jpg'; 
+import productfoto6 from '../Images/FOTOS/Pro 6.jpg'; 
+import productfoto7 from '../Images/FOTOS/Pro 7.jpg'; 
+import productfoto8 from '../Images/FOTOS/Pro 8.jpg'; 
+import productfoto9 from '../Images/FOTOS/Pro 9.jpg'; 
+import productfoto10 from '../Images/FOTOS/Pro 10.jpg'; 
+import productfoto11 from '../Images/FOTOS/Pro 11.jpg'; 
+import productfoto12 from '../Images/FOTOS/Pro 12.jpg'; 
+
 import './Fotos.css'
 const Fotos = () => {
     return (

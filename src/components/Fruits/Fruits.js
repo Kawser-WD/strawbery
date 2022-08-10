@@ -1,17 +1,18 @@
 import React from 'react';
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
-import image1 from './slider under/productfoto-5.jpg'
-import image2 from './slider under/productfoto-112.jpg'
-import image3 from './slider under/productfoto-114.jpg'
-import image4 from './slider under/productfoto-125.jpg'
-import image5 from './slider under/productfoto-135.jpg'
-import image6 from './slider under/productfoto-24.jpg'
-import image7 from './slider under/productfoto-25.jpg'
-import image8 from './slider under/productfoto-35.jpg'
-import image9 from './slider under/productfoto-4.jpg'
-import image10 from './slider under/productfoto-65.jpg'
-import image11 from './slider under/productfoto-99.jpg'
+import image1 from '../Images/SLIDER UNDER/Under 1.jpg';
+import image2 from '../Images/SLIDER UNDER/Under 2.jpg';
+import image3 from '../Images/SLIDER UNDER/Under 3.jpg';
+import image4 from '../Images/SLIDER UNDER/Under 4.jpg';
+import image5 from '../Images/SLIDER UNDER/Under 5.jpg';
+import image6 from '../Images/SLIDER UNDER/Under 6.jpg';
+import image7 from '../Images/SLIDER UNDER/Under 7.jpg';
+import image8 from '../Images/SLIDER UNDER/Under 8.jpg';
+import image9 from '../Images/SLIDER UNDER/Under 9.jpg';
+import image10 from '../Images/SLIDER UNDER/Under 10.jpg';
+import image11 from '../Images/SLIDER UNDER/Under 11.jpg';
+
 import "./Fruits.css";
 
 const breakPoints = [

@@ -1,9 +1,9 @@
 import React from 'react';
-import slider1 from '../../Images/slider top/1.jpg';
-import slider2 from '../../Images/slider top/productfoto-113.jpg';
-import slider3 from '../../Images/slider top/productfoto-29.jpg';
-import slider4 from '../../Images/slider top/productfoto-58.jpg';
-import slider5 from '../../Images/slider top/productfoto-69.jpg';
+import slider1 from '../../Images/SLIDER TOP/Pro 1.jpg' 
+import slider2 from '../../Images/SLIDER TOP/Pro 2.jpg' 
+import slider3 from '../../Images/SLIDER TOP/Pro 3.jpg' 
+import slider4 from '../../Images/SLIDER TOP/Pro 4.jpg' 
+import slider5 from '../../Images/SLIDER TOP/Pro 5.jpg' 
 import './Header.css';
 
 
